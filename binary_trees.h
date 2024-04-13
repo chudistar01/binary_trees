@@ -1,4 +1,4 @@
-i#ifndef _BINARY_TREES_H_
+#ifndef _BINARY_TREES_H_
 #define _BINARY_TREES_H_
 
 #include <stddef.h>
@@ -46,4 +46,5 @@ size_t binary_tree_nodes(const binary_tree_t *tree);
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
 int binary_tree_is_full(const binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 #endif
